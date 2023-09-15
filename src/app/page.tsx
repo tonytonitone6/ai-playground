@@ -1,10 +1,9 @@
-
-import Image from 'next/image'
+import { SideBarWrapper } from './_page.style';
 
 export default function Home() {
   return (
     <main>
-      init project
+      <SideBarWrapper />
     </main>
   )
 }
